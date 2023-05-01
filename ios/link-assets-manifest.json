@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/SofiaSans-Bold.ttf",
+      "sha1": "26b7d3f506847028bfa8feafdd6d44a13ba69b74"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-ExtraBold.ttf",
+      "sha1": "ec86f1bd571bcbb5c667eb24954a59072a1a4394"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-Regular.ttf",
+      "sha1": "dc30d838133122d5725f0adbb86164fadc126a24"
+    },
+    {
+      "path": "assets/fonts/SofiaSans-SemiBold.ttf",
+      "sha1": "d737f97e8971f2cdafd05a69dd2420ebb290d897"
+    }
+  ]
+}
