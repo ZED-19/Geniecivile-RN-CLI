@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     marginLeft: 7.5,
     marginRight: 5,
+    fontFamily: 'SofiaSans-Bold',
   },
   listContainer: {
     width: '100%',

@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     fontSize: 27.5,
     textTransform: 'uppercase',
+    fontFamily: 'SofiaSans-Bold',
   },
   listContainer: {
     width: '100%',
@@ -127,6 +128,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     fontSize: 12.5,
     width: '70%',
+    fontFamily: 'SofiaSans-Regular',
   },
   pb: {
     paddingRight: 10,

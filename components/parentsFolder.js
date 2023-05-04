@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   moduleName: {
     fontSize: 15,
+    fontFamily: 'SofiaSans-Regular',
   },
   counterContainer: {
     flexDirection: 'row',
@@ -46,6 +47,7 @@ const styles = StyleSheet.create({
   },
   counter: {
     fontSize: 15,
+    fontFamily: 'SofiaSans-Regular',
   },
 });
 

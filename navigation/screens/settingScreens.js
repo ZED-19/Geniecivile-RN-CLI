@@ -111,6 +111,7 @@ const styles = StyleSheet.create({
     marginTop: 5,
     fontSize: 27.5,
     textTransform: 'uppercase',
+    fontFamily: 'SofiaSans-Bold',
   },
   settingsList: {
     width: '100%',
@@ -126,9 +127,10 @@ const styles = StyleSheet.create({
     paddingTop: 15,
   },
   darkTitle: {
-    fontSize: 15.5,
+    fontSize: 17.5,
     fontWeight: '500',
     textAlign: 'center',
+    fontFamily: 'SofiaSans-Regular',
   },
   rowListContainer: {
     flexDirection: 'row',
@@ -139,6 +141,7 @@ const styles = StyleSheet.create({
     fontSize: 12.5,
     textAlign: 'center',
     marginTop: 5,
+    fontFamily: 'SofiaSans-Regular',
   },
   rowChild: {
     flexDirection: 'column',
@@ -155,7 +158,8 @@ const styles = StyleSheet.create({
     marginTop: 15,
   },
   qrCodeTitle: {
-    fontSize: 20,
+    fontSize: 25,
+    fontFamily: 'SofiaSans-Regular',
   },
   qrCode: {
     marginTop: 10,

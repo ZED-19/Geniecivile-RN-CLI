@@ -17,9 +17,8 @@ export default function HomeHeader(props) {
   const {value} = useSelector(state => state.theme);
   const theme = value ? themes.dark : themes.light;
 
-  const {listDisplay, searchDisplay, inputAreaWidth, inputWidth, icon} = useSelector(
-    state => state.search,
-  );
+  const {listDisplay, searchDisplay, inputAreaWidth, inputWidth, icon} =
+    useSelector(state => state.search);
 
   return (
     <View style={styles.container}>
@@ -50,11 +49,7 @@ export default function HomeHeader(props) {
           }}
         />
         <TouchableOpacity onPress={() => dispatch(openSearch())}>
-          <Icon
-            src={icon}
-            size={22.5}
-            color={theme.primaryColor}
-          />
+          <Icon src={icon} size={22.5} color={theme.primaryColor} />
         </TouchableOpacity>
       </View>
     </View>
@@ -74,6 +69,7 @@ const styles = StyleSheet.create({
     fontSize: 27.5,
     textTransform: 'uppercase',
     width: '37%',
+    fontFamily: 'SofiaSans-ExtraBold',
   },
   inputArea: {
     flexDirection: 'row',
@@ -83,6 +79,6 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     paddingLeft: 10,
     paddingRight: 5,
-    paddingVertical: 2.5
+    paddingVertical: 2.5,
   },
 });

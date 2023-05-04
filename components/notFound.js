@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 25,
+    fontFamily: 'SofiaSans-Bold',
   },
   icon: {
     height: 250,

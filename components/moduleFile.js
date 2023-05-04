@@ -71,6 +71,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     fontSize: 12.5,
     width: "85%",
+    fontFamily: 'SofiaSans-Regular',
   },
   pb: {
     paddingRight: 10,

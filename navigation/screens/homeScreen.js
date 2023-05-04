@@ -102,24 +102,4 @@ const styles = StyleSheet.create({
     flex: 1,
     paddingHorizontal: 25,
   },
-  moduleContainer: {
-    borderWidth: 1.5,
-    borderRadius: 5,
-    paddingHorizontal: 7.5,
-    paddingVertical: 10,
-    marginVertical: 7.5,
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  moduleName: {
-    fontSize: 15,
-  },
-  counterContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  counter: {
-    fontSize: 15,
-  },
 });

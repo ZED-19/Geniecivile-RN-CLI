@@ -11,7 +11,7 @@ import {
 import themes from '../../config/theme';
 import {useSelector} from 'react-redux';
 import ChildFolder from '../../components/childFolder';
-import Icon, { icons } from '../../assets/icons';
+import Icon, {icons} from '../../assets/icons';
 
 export default function ChildrenScreen({navigation, route}) {
   const parentName = route.params.parentName;
@@ -41,7 +41,7 @@ export default function ChildrenScreen({navigation, route}) {
       ]}>
       <TouchableOpacity onPress={() => navigation.goBack(null)}>
         <View style={styles.headerContainer}>
-          <Icon src={icons.back} color={theme.textColor} size={25}/>
+          <Icon src={icons.back} color={theme.textColor} size={25} />
           <Text style={[styles.pageTitle, {color: theme.textColor}]}>
             {parentName}
           </Text>
@@ -50,9 +50,9 @@ export default function ChildrenScreen({navigation, route}) {
       <View style={styles.listContainer}>
         <FlatList
           data={children}
-          keyExtractor={item => item.id}
+          keyExtractor={item => item.parent}
           renderItem={({item}) => (
-            <ChildFolder item={item} onPress={() => navToFolder(item)} key={item.id}/>
+            <ChildFolder item={item} onPress={() => navToFolder(item)} />
           )}
         />
       </View>
@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
     fontSize: 25,
     marginLeft: 7.5,
     marginRight: 5,
+    fontFamily: 'SofiaSans-Bold',
   },
   listContainer: {
     width: '100%',

@@ -10,7 +10,7 @@ function ChildFolder(props) {
   const item = props.item;
 
   return (
-    <TouchableOpacity onPress={props.onPress} key={props.key}>
+    <TouchableOpacity onPress={props.onPress} >
       <View style={[styles.moduleContainer, {borderColor: theme.primaryColor}]}>
         <Text style={[styles.moduleName, {color: theme.textColor}]}>
           {item.parent}
@@ -39,6 +39,7 @@ const styles = StyleSheet.create({
   },
   moduleName: {
     fontSize: 15,
+    fontFamily: 'SofiaSans-Regular',
   },
   counterContainer: {
     flexDirection: 'row',

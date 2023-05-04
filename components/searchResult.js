@@ -18,7 +18,7 @@ function SearchResult(props) {
     <View style={[styles.container, {borderColor: theme.textColor}]}>
       <TouchableOpacity
         onPress={() => dispatch(openFile({fileName: file, fileId: id}))}>
-        <Text style={{color: theme.textColor}}>
+        <Text style={{color: theme.textColor, fontFamily: "SofiaSans-Regular"}}>
           {index + 1}• {file}
         </Text>
       </TouchableOpacity>
